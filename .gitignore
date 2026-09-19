@@ -1,0 +1,7 @@
+# Generated GitHub Pages output.
+site-dist/
+__pycache__/
+*.pyc
+
+# Separate project in this workspace; it is not part of KURAHAUS.
+monster-trail/

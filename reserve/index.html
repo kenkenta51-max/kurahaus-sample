@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="KURAHAUSのモデルハウス来場予約。見学の流れやよくある質問をご確認いただき、お気軽にご相談ください。" />
+  <meta name="theme-color" content="#1c1a17" />
+  <title>来場予約｜KURAHAUS</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="../script.js" defer></script>
+  <script src="reserve.js" defer></script>
+</head>
+<body class="lower-page reserve-page">
+  <a class="skip-link" href="#main-content">本文へ移動</a>
+  <header class="site-header" data-header>
+    <a class="site-logo" href="../" aria-label="KURAHAUS トップページ">KURAHAUS</a>
+    <nav class="global-nav" aria-label="グローバルナビゲーション"><a href="/concept/">コンセプト</a><a href="/housing/">家づくり</a><a href="/works/">施工事例</a><a href="/modelhouse/">モデルハウス</a><a href="/staff/">スタッフ</a><a href="/voice/">お客様の声</a><a href="/company/">会社情報</a><a href="/news/">お知らせ・イベント</a></nav>
+    <div class="header-contact"><a class="header-phone" href="tel:0286121234" aria-label="電話する 028-612-1234"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.2 3.7 9.6 8 7.8 9.8c1.1 2.5 3.1 4.5 5.6 5.6l1.8-1.8 4.3 2.4-.8 3.4c-.2.8-.9 1.3-1.7 1.3C9.4 20.7 3.3 14.6 3.3 7c0-.8.5-1.5 1.3-1.7l2.6-.6Z" /></svg><span><strong>028-612-1234</strong><small>10:00–18:00（火・水曜定休）</small></span></a><a class="header-reserve" href="/reserve/" aria-current="page"><span>来場予約</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4.5h14v15H5zM8 2.5v4M16 2.5v4M5 8.5h14M9 12h2M13 12h2M9 15.5h2M13 15.5h2" /></svg></a></div>
+    <button class="menu-button" type="button" aria-label="メニューを開く" aria-controls="mobile-menu" aria-expanded="false" data-menu-button><span></span><span></span><span></span></button>
+  </header>
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true" data-mobile-menu><nav aria-label="モバイルナビゲーション"><a href="/concept/">コンセプト</a><a href="/housing/">家づくり</a><a href="/works/">施工事例</a><a href="/modelhouse/">モデルハウス</a><a href="/staff/">スタッフ</a><a href="/voice/">お客様の声</a><a href="/company/">会社情報</a><a href="/news/">お知らせ・イベント</a></nav><a class="mobile-menu__reserve" href="/reserve/">モデルハウスを予約する</a><a class="mobile-menu__phone" href="tel:0286121234">028-612-1234</a><p>10:00–18:00（火・水曜定休）</p></div>
+  <main id="main-content">
+    <section class="reserve-hero" aria-labelledby="reserve-title">
+      <div class="reserve-hero__media media-reveal" data-reveal="image" data-parallax><img src="../assets/images/reserve-hero.webp" alt="朝陽が差し込む和モダンの縁側と緑の庭" width="1672" height="941" fetchpriority="high" /></div>
+      <div class="reserve-hero__overlay" aria-hidden="true"></div>
+      <div class="content-shell reserve-hero__copy" data-reveal style="--reveal-delay:.12s"><h1 id="reserve-title">来場予約</h1><p>RESERVE</p><div>未来の暮らしを、実際に見て、感じてみてください。<br />ご見学は無料です。どうぞお気軽にご予約ください。</div></div>
+      <p class="reserve-hero__sidecopy" aria-hidden="true">この場所で、きっと見つかる。<br />これからの暮らし。</p>
+    </section>
+    <nav class="reserve-breadcrumb content-shell" aria-label="パンくずリスト"><ol><li><a href="../">ホーム</a></li><li aria-current="page">来場予約</li></ol></nav>
+
+    <section class="reserve-promises content-shell" aria-labelledby="reserve-promises-title">
+      <div class="reserve-section-heading" data-reveal><p>はじめての方も、安心してご来場いただけるように。</p><h2 id="reserve-promises-title">3つのお約束</h2></div>
+      <ol>
+        <li data-reveal><div class="reserve-promises__heading"><svg aria-hidden="true" viewBox="0 0 32 32"><circle cx="16" cy="9" r="4" /><path d="M9 27v-5a7 7 0 0 1 14 0v5M6 7a3 3 0 0 0 0 6M26 7a3 3 0 0 1 0 6M3 25v-5a5 5 0 0 1 4-5M29 25v-5a5 5 0 0 0-4-5" /></svg><h3><small>01</small>しつこい営業はいたしません。</h3></div><p>KURAHAUSは、お客様のペースを大切にします。ご要望を無理に伺うことはありませんので、安心してご見学ください。</p></li>
+        <li data-reveal style="--reveal-delay:.06s"><div class="reserve-promises__heading"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="m3 15 13-12 13 12M7 12v16h18V12M13 28V17h6v11" /></svg><h3><small>02</small>暮らしのイメージが深まります。</h3></div><p>実際の空間や素材を体感いただきながら、家づくりの進め方や資金計画まで、丁寧にご説明いたします。</p></li>
+        <li data-reveal style="--reveal-delay:.12s"><div class="reserve-promises__heading"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M16 28 4 16C-3 7 9-1 16 8c7-9 19-1 12 8Z" /></svg><h3><small>03</small>どんなご相談も承ります。</h3></div><p>土地探しや資金のことなど、家づくりに関するどんなお悩みも、お気軽にご相談ください。</p></li>
+      </ol>
+    </section>
+
+    <section class="reserve-flow content-shell" aria-labelledby="reserve-flow-title">
+      <div class="reserve-section-heading" data-reveal><h2 id="reserve-flow-title">当日の流れ</h2><p>ご見学・ご相談の目安は60〜90分。お客様のペースでご案内します。</p></div>
+      <ol>
+        <li data-reveal><figure class="media-reveal" data-reveal="image"><img src="../assets/images/reserve-entrance.webp" alt="緑に囲まれたモデルハウスの木の玄関" width="1448" height="1086" loading="lazy" /></figure><h3><span>01</span>ご来場・受付</h3><p>ご予約のお時間にモデルハウスへお越しください。</p></li>
+        <li data-reveal style="--reveal-delay:.05s"><figure class="media-reveal" data-reveal="image"><img src="../assets/images/reserve-living.webp" alt="自然光と木の温もりに包まれたリビング" width="1448" height="1086" loading="lazy" /></figure><h3><span>02</span>ご見学・ご説明</h3><p>モデルハウスをご見学いただき、暮らしのイメージや性能・素材などをご案内します。</p></li>
+        <li data-reveal style="--reveal-delay:.1s"><figure class="media-reveal" data-reveal="image"><img src="../assets/images/reserve-consultation.webp" alt="木のテーブルに広げられた建築プランと素材サンプル" width="1448" height="1086" loading="lazy" /></figure><h3><span>03</span>ご相談・お打ち合わせ</h3><p>ご希望や不安を伺い、家づくりの進め方や資金計画などを丁寧にご説明します。</p></li>
+        <li data-reveal style="--reveal-delay:.15s"><figure class="media-reveal" data-reveal="image"><img src="../assets/images/reserve-engawa.webp" alt="庭の緑を望む光に満ちた縁側" width="1448" height="1086" loading="lazy" /></figure><h3><span>04</span>質問応答・ご案内</h3><p>気になることは何でもご質問ください。次のステップをご案内して終了です。</p></li>
+      </ol>
+    </section>
+
+    <section class="reserve-booking content-shell" aria-labelledby="reserve-form-title">
+      <div class="reserve-booking__panel" data-reveal>
+        <div class="reserve-booking__heading"><h2 id="reserve-form-title">来場予約フォーム</h2><p>家づくりは、きっと、いい時間になる。</p></div>
+        <form class="reserve-form" action="#" method="post" data-reserve-form aria-describedby="reserve-form-note">
+          <p id="reserve-form-note" class="reserve-form__note">「必須」の項目をご入力ください。ご予約日時はスタッフからのご連絡後に確定します。</p>
+          <div class="reserve-form-grid">
+            <fieldset class="reserve-form-column"><legend class="sr-only">ご希望の場所・日時と基本情報</legend>
+              <div class="reserve-field"><label for="reserve-modelhouse">希望の場所 <span class="reserve-badge">必須</span></label><select id="reserve-modelhouse" name="modelhouse" required><option value="">選択してください</option><option value="utsunomiya">宇都宮｜蔵の家モデルハウス</option><option value="oyama">小山｜平屋のモデルハウス</option></select></div>
+              <fieldset class="reserve-field reserve-datetime"><legend>第1希望日時 <span class="reserve-badge">必須</span></legend><div class="reserve-datetime__controls"><div><label class="sr-only" for="reserve-date-first">第1希望の日付（必須）</label><input id="reserve-date-first" name="first_date" type="date" required /></div><div><label class="sr-only" for="reserve-time-first">第1希望の時間（必須）</label><input id="reserve-time-first" name="first_time" type="time" required /></div></div></fieldset>
+              <fieldset class="reserve-field reserve-datetime"><legend>第2希望日時 <span class="reserve-badge reserve-badge--optional">任意</span></legend><div class="reserve-datetime__controls"><div><label class="sr-only" for="reserve-date-second">第2希望の日付（任意）</label><input id="reserve-date-second" name="second_date" type="date" /></div><div><label class="sr-only" for="reserve-time-second">第2希望の時間（任意）</label><input id="reserve-time-second" name="second_time" type="time" /></div></div></fieldset>
+              <div class="reserve-field"><label for="reserve-name">お名前 <span class="reserve-badge">必須</span></label><input id="reserve-name" name="name" type="text" placeholder="例）倉橋 太郎" autocomplete="name" required /></div>
+              <div class="reserve-field"><label for="reserve-kana">フリガナ <span class="reserve-badge">必須</span></label><input id="reserve-kana" name="name_kana" type="text" placeholder="例）クラハシ タロウ" required /></div>
+              <div class="reserve-field"><label for="reserve-email">メールアドレス <span class="reserve-badge">必須</span></label><input id="reserve-email" name="email" type="email" placeholder="例）info@kurahaus.jp" autocomplete="email" required /></div>
+              <div class="reserve-field"><label for="reserve-phone">電話番号 <span class="reserve-badge">必須</span></label><input id="reserve-phone" name="phone" type="tel" placeholder="例）090-1234-5678" autocomplete="tel" required /></div>
+            </fieldset>
+            <fieldset class="reserve-form-column"><legend class="sr-only">ご住所とご相談内容</legend>
+              <div class="reserve-field"><label for="reserve-address">ご住所 <span class="reserve-badge">必須</span></label><input id="reserve-address" name="address" type="text" placeholder="例）栃木県宇都宮市○○2937-3" autocomplete="street-address" required /></div>
+              <div class="reserve-field"><label for="reserve-guests">ご参加人数 <span class="reserve-badge">必須</span></label><select id="reserve-guests" name="guests" required><option value="">選択してください</option><option>大人1名</option><option>大人2名</option><option>大人2名＋子ども1名</option><option>大人2名＋子ども2名</option><option>その他</option></select></div>
+              <div class="reserve-field"><label for="reserve-stage">検討状況 <span class="reserve-badge">必須</span></label><select id="reserve-stage" name="consideration_stage" required><option value="">選択してください</option><option>情報収集中</option><option>土地探し中</option><option>建築会社比較中</option><option>プラン検討中</option><option>建築時期が決まっている</option></select></div>
+              <div class="reserve-field"><label for="reserve-period">ご建築予定時期 <span class="reserve-badge reserve-badge--optional">任意</span></label><select id="reserve-period" name="construction_period"><option>未定</option><option>半年以内</option><option>1年以内</option><option>2年以内</option><option>3年以上先</option></select></div>
+              <div class="reserve-field reserve-field--textarea"><label for="reserve-message">ご相談内容 <span class="reserve-badge reserve-badge--optional">任意</span></label><textarea id="reserve-message" name="message" rows="6" placeholder="ご要望やご質問などがございましたらご入力ください。"></textarea></div>
+            </fieldset>
+          </div>
+          <div class="reserve-form__submit"><p>ご入力いただいた個人情報は、来場予約のご連絡および弊社からのご案内のみに使用いたします。<br />詳細は<a href="/document/">資料請求</a><a href="/contact/">お問い合わせ</a><a href="/privacy/">プライバシーポリシー</a>をご確認ください。</p><button type="submit" disabled data-reserve-submit><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5h16v16H4zM8 2v6M16 2v6M4 10h16M8 14h2M14 14h2M8 17h2M14 17h2" /></svg>この内容で予約する</button><p class="reserve-form__status" data-reserve-status role="status" aria-live="polite" hidden></p><noscript><p>フォーム送信機能は準備中です。お電話でご予約ください。</p></noscript></div>
+        </form>
+
+        <section class="reserve-contact-options" aria-labelledby="reserve-contact-title" data-reveal>
+          <div><h3 id="reserve-contact-title">お急ぎの方・フォーム入力が難しい方へ</h3><p>お電話やLINEでもご予約いただけます。</p></div>
+          <a class="reserve-contact-options__phone" href="tel:0286121234"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m7 3 3 5-2 2c1 3 3 5 6 6l2-2 5 3-1 4C11 22 2 13 3 4Z" /></svg><div><h3>電話で予約する</h3><strong>028-612-1234</strong><small>10:00〜18:00（火・水曜定休）</small></div></a>
+          <div class="reserve-contact-options__line"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M28 14c0 7-8 12-17 12l-6 3 2-7C-1 14 3 3 16 3c7 0 12 5 12 11Z" /><path d="M9 14h14M9 10h14M9 18h8" /></svg><div><h3><a href="#reserve-line-status">LINEで予約する <span aria-hidden="true">→</span></a></h3><p>友だち追加して、トークでご希望日時をお送りください。</p><small id="reserve-line-status">LINE窓口は準備中です。お電話をご利用ください。</small></div></div>
+        </section>
+      </div>
+    </section>
+
+    <section class="reserve-faq content-shell" aria-labelledby="reserve-faq-title">
+      <div class="reserve-faq__heading" data-reveal><h2 id="reserve-faq-title">よくあるご質問</h2><p>その他のご質問もお気軽にお電話ください。</p></div>
+      <div class="reserve-faq__grid" data-reveal>
+        <details><summary>予約の変更やキャンセルはできますか？</summary><p>はい。<a href="tel:0286121234">お電話</a>または<a href="/contact/">お問い合わせフォーム</a>よりご連絡ください。</p></details>
+        <details><summary>小さな子どもを連れての見学でも大丈夫ですか？</summary><p>もちろんです。お子さま連れでも安心してご見学いただけます。</p></details>
+        <details><summary>駐車場はありますか？</summary><p>はい。各モデルハウスに駐車スペースをご用意しています。</p></details>
+        <details><summary>見学にはどのくらいの時間がかかりますか？</summary><p>目安は60〜90分程度です。ご希望に応じて短時間でのご案内も可能です。</p></details>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="content-shell site-footer__main" data-reveal><div class="site-footer__company"><a class="site-footer__logo" href="../" aria-label="KURAHAUS トップページ">KURAHAUS</a><address><span>株式会社KURAHAUS</span><span>〒320-0851<br />栃木県宇都宮市松原3-14-2</span><a href="tel:0286121234">TEL 028-612-1234</a><span>10:00〜18:00 / 火・水曜定休</span></address><p class="site-footer__licenses">建設業許可 栃木県知事許可（般-XX）第XXXXX号<br />一級建築士事務所 栃木県知事登録 第XXXX号<br />宅地建物取引業 栃木県知事（3）第XXXXX号</p></div><nav class="site-footer__nav" aria-label="フッターナビゲーション"><a href="/concept/">コンセプト</a><a href="/housing/">家づくり</a><a href="/housing/material/">素材のこと</a><a href="/housing/performance/">性能のこと</a><a href="/housing/flow/">費用と流れ</a><a href="/works/">施工事例</a><a href="/modelhouse/">モデルハウス</a><a href="/staff/">スタッフ</a><a href="/voice/">お客様の声</a><a href="/company/">会社情報</a><a href="/news/">お知らせ・イベント</a><a href="/faq/">よくあるご質問</a><a href="/privacy/">プライバシーポリシー</a><a href="/sitemap/">サイトマップ</a></nav><div class="site-footer__social" aria-label="公式SNS"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://line.me/" target="_blank" rel="noopener noreferrer">LINE</a><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a></div></div><div class="content-shell site-footer__bottom"><small>© KURAHAUS Inc.</small></div></footer>
+</body>
+</html>
+
+
